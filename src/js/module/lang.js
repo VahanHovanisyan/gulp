@@ -1,6 +1,7 @@
-import rus from "./language/rus";
-import fra from "./language/fra";
-import deu from "./language/deu";
+import rus from "../language/rus.js";
+import fra from "../language/fra.js";
+import deu from "../language/deu.js";
+import eng from "../language/eng.js";
 
 const allLangs = ['rus','eng','fra','deu'];
 let currentLang = localStorage.getItem("language") || 'eng';
